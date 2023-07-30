@@ -2,7 +2,7 @@
 
 ℹ️ Forked from https://github.com/loggly/node-loggly-bulk
 
-[![Version npm](https://img.shields.io/npm/v/@adarshmadrecha/node-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/@adarshmadrecha/node-loggly-bulk)[![npm Downloads](https://img.shields.io/npm/dm/node-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/node-loggly-bulk)
+[![Version npm](https://img.shields.io/npm/v/@adarshmadrecha/node-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/@adarshmadrecha/node-loggly-bulk) [![npm Downloads](https://img.shields.io/npm/dm/node-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/node-loggly-bulk)
 
 [![NPM](https://nodei.co/npm/@adarshmadrecha/node-loggly-bulk.png?downloads=true&downloadRank=true)](https://nodei.co/npm/@adarshmadrecha/node-loggly-bulk/)
 
