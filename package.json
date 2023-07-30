@@ -13,7 +13,7 @@
     "loggly"
   ],
   "dependencies": {
-    "axios": "1.3.4",
+    "axios": "1.4.0",
     "json-stringify-safe": "5.0.x"
   },
   "devDependencies": {
