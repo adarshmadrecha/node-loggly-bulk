@@ -1,11 +1,11 @@
 {
-  "name": "node-loggly-bulk",
+  "name": "@adarshmadrecha/node-loggly-bulk",
   "description": "A client implementation for Loggly cloud Logging-as-a-Service API",
   "version": "4.0.1",
   "author": "Adarsh Madrecha",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adarshmadrecha/node-loggly-bulk.git"
+    "url": "git+https://github.com/adarshmadrecha/node-loggly-bulk.git"
   },
   "keywords": [
     "api",
@@ -27,5 +27,13 @@
   "license": "MIT",
   "engines": {
     "node": ">= 16.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/adarshmadrecha/node-loggly-bulk/issues"
+  },
+  "homepage": "https://github.com/adarshmadrecha/node-loggly-bulk#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
