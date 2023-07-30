@@ -2,7 +2,7 @@
   "name": "node-loggly-bulk",
   "description": "A client implementation for Loggly cloud Logging-as-a-Service API",
   "version": "4.0.1",
-  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "author": "Adarsh Madrecha",
   "repository": {
     "type": "git",
     "url": "https://github.com/loggly/node-loggly-bulk.git"
@@ -27,6 +27,6 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 16.0.0"
   }
 }
