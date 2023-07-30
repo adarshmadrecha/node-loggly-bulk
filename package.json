@@ -5,10 +5,9 @@
   "author": "Adarsh Madrecha",
   "repository": {
     "type": "git",
-    "url": "https://github.com/loggly/node-loggly-bulk.git"
+    "url": "https://github.com/adarshmadrecha/node-loggly-bulk.git"
   },
   "keywords": [
-    "cloud computing",
     "api",
     "logging",
     "loggly"
