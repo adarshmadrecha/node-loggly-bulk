@@ -1,8 +1,10 @@
 # node-loggly-bulk
 
-[![Version npm](https://img.shields.io/npm/v/node-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/node-loggly-bulk)[![npm Downloads](https://img.shields.io/npm/dm/node-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/node-loggly-bulk)
+ℹ️ Forked from https://github.com/loggly/node-loggly-bulk
 
-[![NPM](https://nodei.co/npm/node-loggly-bulk.png?downloads=true&downloadRank=true)](https://nodei.co/npm/node-loggly-bulk/)
+[![Version npm](https://img.shields.io/npm/v/@adarshmadrecha/node-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/@adarshmadrecha/node-loggly-bulk)[![npm Downloads](https://img.shields.io/npm/dm/node-loggly-bulk.svg?style=flat-square)](https://www.npmjs.com/package/node-loggly-bulk)
+
+[![NPM](https://nodei.co/npm/@adarshmadrecha/node-loggly-bulk.png?downloads=true&downloadRank=true)](https://nodei.co/npm/@adarshmadrecha/node-loggly-bulk/)
 
 A client implementation for Loggly in node.js. Check out Loggly's [Node logging documentation](https://www.loggly.com/docs/nodejs-logs/) for more.
 
@@ -14,9 +16,9 @@ The `node-loggly-bulk` library is compliant with the [Loggly API][api]. Using `n
 Before we can do anything with Loggly, we have to create a client with valid credentials. We will authenticate for you automatically:
 
 ``` js
-  var loggly = require('node-loggly-bulk');
+  const loggly = require('@adarshmadrecha/node-loggly-bulk');
 
-  var client = loggly.createClient({
+  const client = loggly.createClient({
     token: "your-really-long-input-token",
     subdomain: "your-subdomain",
     //
@@ -58,7 +60,7 @@ If you're using Loggly's [tags](https://www.loggly.com/docs/tags/) functionality
 In addition to logging pure strings, it is also possible to pass shallow JSON object literals (i.e. no nested objects) to client.log(..) or input.log(..) methods, which will get converted into the [Loggly recommended string representation][sending-data]. So
 
 ``` js
-  var source = {
+  const source = {
     foo: 1,
     bar: 2,
     buzz: 3
@@ -77,7 +79,7 @@ will be logged as:
 It is also possible to log complex objects using the new JSON capabilities of Loggly. To enable JSON functionality in the client simply add 'json: true' to the configuration:
 
 ``` js
-  var config = {
+  const config = {
     token: 'token',
     subdomain: "your-subdomain",
     json: true
@@ -87,7 +89,7 @@ It is also possible to log complex objects using the new JSON capabilities of Lo
 When the json flag is enabled, objects will be converted to JSON using JSON.stringify before being transmitted to Loggly. So
 
 ``` js
-  var source = {
+  const source = {
     foo: 1,
     bar: 2,
     buzz: {
@@ -114,14 +116,13 @@ It is possible to send arrays, which will result in one single request to Loggly
 
 ## Installation
 
-### Installing npm (node package manager)
+### using npm
 ``` bash
-  $ curl http://npmjs.org/install.sh | sh
+  npm install @adarshmadrecha/node-loggly-bulk
 ```
-
-### Installing node-loggly-bulk
+### using pnpm
 ``` bash
-  $ npm install node-loggly-bulk
+  pnpm add @adarshmadrecha/node-loggly-bulk
 ```
 
 ## Run Tests
@@ -131,9 +132,7 @@ It is possible to send arrays, which will result in one single request to Loggly
 ```
 
 
-
-#### Author: [Charlie Robbins](http://www.github.com/indexzero)
-#### Contributors: [Marak Squires](http://github.com/marak), [hij1nx](http://github.com/hij1nx), [Kord Campbell](http://loggly.com), [Erik Hedenström](http://github.com/ehedenst),
+#### Contributors: [Charlie Robbins](http://www.github.com/indexzero), [Marak Squires](http://github.com/marak), [hij1nx](http://github.com/hij1nx), [Kord Campbell](http://loggly.com), [Erik Hedenström](http://github.com/ehedenst),
 
 [api]: http://www.loggly.com/docs/api-overview/
 [sending-data]: http://www.loggly.com/docs/api-sending-data/
