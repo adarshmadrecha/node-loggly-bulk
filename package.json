@@ -21,7 +21,6 @@
   },
   "main": "./lib/loggly",
   "scripts": {
-    "lint": "eslint --max-warnings 0 --ext lib/**/*.js lib/*.js --fix",
     "test": "jest"
   },
   "license": "MIT",
