@@ -17,7 +17,7 @@
     "json-stringify-safe": "5.0.x"
   },
   "devDependencies": {
-    "jest": "29.6.2"
+    "jest": "29.7.0"
   },
   "main": "./lib/loggly",
   "scripts": {
